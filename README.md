@@ -6,7 +6,7 @@ SELECT pm.*, p.post_date, p.post_status, p.post_type
 FROM natural_postmeta pm
 INNER JOIN natural_posts p ON p.ID = pm.post_id
 WHERE pm.meta_key = 'inspected_farm'
-  AND meta_value = 'Adams Home Grown Produce'
+  AND meta_value = 'Farm Name Here'
 ORDER BY pm.post_id ASC;
 ```
 
